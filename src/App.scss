@@ -1,0 +1,22 @@
+@import "./colors.scss";
+
+.dark-theme {
+    $darkmode-background-color:#282c35 ;
+    $darkmode-font-color: #fff;
+    $darkmode-heading-color: #ffa7c4;
+}
+
+.light-theme {
+    $darkmode-background-color:#fff ;
+    $darkmode-font-color: #282c35;
+    $darkmode-heading-color: #d23669;
+}   
+
+nav {
+    background: rgba(0, 255, 255, 0.5);
+    color: $primary-font-color;
+
+    button {
+        color: $primary-heading-color
+    }
+}
